@@ -20,11 +20,26 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px;
-  &.begin{
-    background-color: red;
+  &.zero{
+    background-color: lightgray;
   }
-  &.end{
-    background-color: yellow;
+  &.one{
+    color: blue;
+  }
+  &.two{
+    color: green;
+  }
+  &.three{
+    color: red;
+  }
+  &.four{
+    color: darkblue;
+  }
+  &.five{
+    color: darkgreen;
+  }
+  &.five{
+    color: darkred;
   }
 }
 

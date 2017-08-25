@@ -18,10 +18,20 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px; }
-  .square.begin {
-    background-color: red; }
-  .square.end {
-    background-color: yellow; }
+  .square.zero {
+    background-color: lightgray; }
+  .square.one {
+    color: blue; }
+  .square.two {
+    color: green; }
+  .square.three {
+    color: red; }
+  .square.four {
+    color: darkblue; }
+  .square.five {
+    color: darkgreen; }
+  .square.five {
+    color: darkred; }
 
 .square:focus {
   outline: none; }

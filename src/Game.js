@@ -1,18 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import logo from './logo.svg';
 import './Game.css';
 
 class Square extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
-        this.state.selected = false;
+        this.state = {
+            selected: false
+        };
     }
 
     render() {
+        var className = this.props.className;
+        if (this.state.selected) {
+            className += " type-" + this.props.value;
+        }
         return (
-            <button className={this.props.className} onClick={() => this.handleClick()}>
+            <button className={className} onClick={() => this.handleClick()}>
                 {this.state.selected ? this.props.value : "?"}
             </button>
         );
