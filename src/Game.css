@@ -18,6 +18,10 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px; }
+  .square.blowup {
+    background-color: red; }
+  .square.posited {
+    background-color: lightyellow; }
   .square.type-0 {
     background-color: lightgray;
     color: gray; }

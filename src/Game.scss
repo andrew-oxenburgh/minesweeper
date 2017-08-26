@@ -20,6 +20,12 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px;
+  &.blowup{
+    background-color: red;
+  }
+  &.posited{
+    background-color: lightyellow;
+  }
   &.type-0{
     background-color: lightgray;
     color: gray;
