@@ -35,7 +35,7 @@ class Square extends React.Component {
             className += " posited"
         }
 
-        if(this.state.selected) {
+        if (this.state.selected) {
             className += " type-" + this.props.value;
         }
 
@@ -46,8 +46,8 @@ class Square extends React.Component {
         );
     }
 
-    blowup(){
-        this.setState({blowingup:true}, this.render)
+    blowup() {
+        this.setState({blowingup: true}, this.render)
     }
 
     handleEmptyNextDoor() {
@@ -55,7 +55,7 @@ class Square extends React.Component {
     }
 
     handleClick(evt) {
-        if(this.state.blowingup === true){
+        if (this.state.blowingup === true) {
             return;
         }
         if (evt.shiftKey) {
@@ -76,6 +76,35 @@ class Square extends React.Component {
         if (this.props.value === '0') {
             this.props.findEmpties(this.props.nm)
         }
+    }
+}
+
+class Timer extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            startTime: new Date().getTime()
+        };
+    }
+
+    componentDidMount() {
+        setInterval(this.timer.bind(this), 1000);
+    }
+
+    timer(){
+        this.setState({});
+    }
+
+    render() {
+        var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
+        var min = Math.floor(elapsedTime / 60);
+        var sec = elapsedTime - (min *60);
+        var str = min + ':' + sec
+        console.log(elapsedTime);
+        return (<div className="timer">
+                {str} s
+            </div>
+        )
     }
 }
 
@@ -104,7 +133,7 @@ class Game extends React.Component {
     }
 
     blowup() {
-        this.state.squares.map((sq)=>sq.blowup())
+        this.state.squares.map((sq) => sq.blowup())
     }
 
     findEmpties(num) {
@@ -116,7 +145,7 @@ class Game extends React.Component {
                 for (var j = col - 1; j <= col + 1; j++) {
                     if (j >= 0 && j < 16) {
                         var sq = i * 16 + j;
-                        if (sq != num) {
+                        if (sq !== num) {
                             this.state.squares[sq].handleEmptyNextDoor.apply(this.state.squares[sq]);
                         }
                     }
@@ -145,6 +174,7 @@ class Game extends React.Component {
         this.state = {squares: []};
         return (
             <div className="game">
+                <Timer/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
                         return this.renderSquare(i)
