@@ -6,60 +6,12 @@ import './Game.css';
 class Square extends React.Component {
     constructor(props) {
         super(props);
-
-
-        var className = 'square';
-        if (this.props.nm % 16 === 0) {
-            className += ' begin'
-        }
-        if (this.props.nm % 16 === 15) {
-            className += ' end'
-        }
-
         this.state = {
             selected: false,
             posited: false,
-            className: className,
+            className: this._calcClassName(),
             blowingup: false,
-            findEmpties: this.props.findEmpties.bind(this, this.props.nm)
         };
-    }
-
-    blowup() {
-        this.setState({blowingup: true}, this.render)
-    }
-
-    handleEmptyNextDoor() {
-        if (!this.state.selected && !this.state.posited) {
-            this._normalClick();
-        }
-    }
-
-    _handleClick(evt) {
-        if (this.state.blowingup === true) {
-            return;
-        }
-        if (evt.shiftKey) {
-            this.setState({posited: true})
-        } else {
-            this._normalClick()
-        }
-    }
-
-    _normalClick() {
-        this.setState({posited: false});
-        if (this.props.value === 'X') {
-            this.setState({blowingup: true});
-            this.props.blowup();
-            return
-        }
-        let call = (() => {
-            this.render();
-            if (this.props.value === '0') {
-                this.state.findEmpties()
-            }
-        }).bind(this);
-        this.setState({selected: true}, call);
     }
 
     render() {
@@ -83,6 +35,58 @@ class Square extends React.Component {
             </button>
         );
     }
+
+    blowup() {
+        this.setState({blowingup: true})
+    }
+
+    handleEmptyNextDoor() {
+        if (!this.state.selected && !this.state.posited) {
+            this._normalClick();
+        }
+    }
+
+    _calcClassName() {
+        var className = 'square';
+        if (this.props.nm % 16 === 0) {
+            className += ' begin'
+        }
+        if (this.props.nm % 16 === 15) {
+            className += ' end'
+        }
+        return className;
+    }
+
+    _handleClick(evt) {
+        if (this.state.blowingup === true) {
+            return;
+        }
+        if (evt.shiftKey) {
+            this._shiftClick()
+        } else {
+            this._normalClick()
+        }
+    }
+
+    _normalClick() {
+        this.setState({posited: false});
+        if (this.props.value === 'X') {
+            this.setState({blowingup: true});
+            this.props.blowup();
+            return
+        }
+        let call = (() => {
+            this.render();
+            if (this.props.value === '0') {
+                this.props.findEmpties(this.props.nm)
+            }
+        });
+        this.setState({selected: true}, call);
+    }
+
+    _shiftClick() {
+        this.setState({posited: true})
+    }
 }
 
 class Timer extends React.Component {
@@ -93,28 +97,27 @@ class Timer extends React.Component {
         };
     }
 
-    componentDidMount() {
-        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
-    }
-
-    cancelTimer() {
-        clearInterval(this.timer)
-    }
-
-    _tick() {
-        this.setState({});
-    }
-
     render() {
         var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
         var min = Math.floor(elapsedTime / 60);
         var sec = elapsedTime - (min * 60);
         var str = min + ':' + sec
-        console.log(elapsedTime);
         return (<div className="timer">
                 {str} s
             </div>
         )
+    }
+
+    cancelTimer() {
+        clearInterval(this.state.timer)
+    }
+
+    componentDidMount() {
+        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
+    }
+
+    _tick() {
+        this.setState({});
     }
 }
 
@@ -139,7 +142,24 @@ class Game extends React.Component {
             '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
             '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
         ];
-        this.state = {squares: []}
+        this.state = {
+            squares: [],
+            bombCount: 32
+        }
+    }
+
+    render() {
+        this.state = {squares: []};
+        return (
+            <div className="game">
+                <Timer ref={(input) => this.timer = input}/>
+                <div className="game-board">
+                    {_.range(0, 16 * 16).map((element, i) => {
+                        return this._renderSquare(i)
+                    })}
+                </div>
+            </div>
+        );
     }
 
     blowup() {
@@ -147,12 +167,12 @@ class Game extends React.Component {
         this.timer.cancelTimer();
     }
 
-    _handleNextDoors(sq) {
-        sq.handleEmptyNextDoor.apply(sq);
-    }
-
     findEmpties(num) {
         this._messageToNeighbours(num, this._handleNextDoors);
+    }
+
+    _handleNextDoors(sq) {
+        sq.handleEmptyNextDoor.apply(sq);
     }
 
     _messageToNeighbours(num, call) {
@@ -185,20 +205,6 @@ class Game extends React.Component {
                 findEmpties={this.findEmpties.bind(this)}
                 blowup={this.blowup.bind(this)}
             />
-        );
-    }
-
-    render() {
-        this.state = {squares: []};
-        return (
-            <div className="game">
-                <Timer ref={(input) => this.timer = input}/>
-                <div className="game-board">
-                    {_.range(0, 16 * 16).map((element, i) => {
-                        return this._renderSquare(i)
-                    })}
-                </div>
-            </div>
         );
     }
 }
