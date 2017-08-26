@@ -9,10 +9,10 @@ class Square extends React.Component {
 
 
         var className = 'square';
-        if (this.props.value % 16 === 0) {
+        if (this.props.nm % 16 === 0) {
             className += ' begin'
         }
-        if (this.props.value % 16 === 15) {
+        if (this.props.nm % 16 === 15) {
             className += ' end'
         }
 
@@ -21,6 +21,7 @@ class Square extends React.Component {
             posited: false,
             className: className,
             blowingup: false,
+            findEmpties: this.props.findEmpties.bind(this, this.props.nm)
         };
     }
 
@@ -51,7 +52,9 @@ class Square extends React.Component {
     }
 
     handleEmptyNextDoor() {
-        this.setState({selected: true}, this.render);
+        if (!this.state.selected && !this.state.posited) {
+            this.normalClick();
+        }
     }
 
     handleClick(evt) {
@@ -72,10 +75,13 @@ class Square extends React.Component {
             this.props.blowup();
             return
         }
-        this.setState({selected: true}, this.render);
-        if (this.props.value === '0') {
-            this.props.findEmpties(this.props.nm)
-        }
+        let call = (() => {
+            this.render();
+            if(this.props.value === '0'){
+                this.state.findEmpties()
+            }
+        }).bind(this);
+        this.setState({selected: true}, call);
     }
 }
 
@@ -91,18 +97,18 @@ class Timer extends React.Component {
         this.timer = setInterval(this.tick.bind(this), 1000);
     }
 
-    tick(){
+    tick() {
         this.setState({});
     }
 
-    cancelTimer(){
+    cancelTimer() {
         clearInterval(this.timer)
     }
 
     render() {
         var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
         var min = Math.floor(elapsedTime / 60);
-        var sec = elapsedTime - (min *60);
+        var sec = elapsedTime - (min * 60);
         var str = min + ':' + sec
         console.log(elapsedTime);
         return (<div className="timer">
@@ -132,7 +138,7 @@ class Game extends React.Component {
             '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
             '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
             '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
-        ]
+        ];
         this.state = {squares: []}
     }
 
@@ -179,7 +185,7 @@ class Game extends React.Component {
         this.state = {squares: []};
         return (
             <div className="game">
-                <Timer ref={(input)=>this.timer = input}/>
+                <Timer ref={(input) => this.timer = input}/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
                         return this.renderSquare(i)
