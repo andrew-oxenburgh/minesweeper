@@ -99,11 +99,17 @@ class Timer extends React.Component {
 
     render() {
         var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
-        var min = Math.floor(elapsedTime / 60);
-        var sec = elapsedTime - (min * 60);
-        var str = min + ':' + sec
+        var min = Math.floor(elapsedTime / 60) + '';
+        var sec = elapsedTime - (min * 60) + '';
+        if (sec.length == 1) {
+            sec += '0';
+        }
+        if (min.length == 1) {
+            min += '0';
+        }
+        var str = min + ':' + sec;
         return (<div className="timer">
-                {str} s
+                {str}
             </div>
         )
     }
