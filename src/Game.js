@@ -26,7 +26,7 @@ class Square extends React.Component {
         }
 
         if (this.state.selected) {
-            className += " type-" + this.props.value;
+            className += " selected type-" + this.props.value;
         }
 
         return (
@@ -89,57 +89,20 @@ class Square extends React.Component {
     }
 }
 
-class Timer extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            startTime: new Date().getTime()
-        };
-    }
-
-    render() {
-        var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
-        var min = Math.floor(elapsedTime / 60) + '';
-        var sec = elapsedTime - (min * 60) + '';
-        if (sec.length == 1) {
-            sec += '0';
-        }
-        if (min.length == 1) {
-            min += '0';
-        }
-        var str = min + ':' + sec;
-        return (<div className="timer">
-                {str}
-            </div>
-        )
-    }
-
-    cancelTimer() {
-        clearInterval(this.state.timer)
-    }
-
-    componentDidMount() {
-        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
-    }
-
-    _tick() {
-        this.setState({});
-    }
-}
-
 class Game extends React.Component {
     constructor(props) {
         super(props);
 
-
-        var bombCount = 32;
+        var bombCount = 15;
         var square_values = new Array(16 * 16).fill(0);
         while (bombCount > 0) {
             var bombHere = Math.floor(Math.random() * 16 * 16);
             if (square_values[bombHere] !== 'X') {
                 square_values[bombHere] = 'X';
-                this._messageToNeighbours(bombHere, (sq) => {
-                    square_values[sq]++
+                this._messageToNeighbours(bombHere, function (sq) {
+                    if (square_values[sq] !== 'X') {
+                        square_values[sq]++;
+                    }
                 });
                 bombCount--;
             }
@@ -214,6 +177,44 @@ class Game extends React.Component {
                 blowup={this.blowup.bind(this)}
             />
         );
+    }
+}
+
+class Timer extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            startTime: new Date().getTime()
+        };
+    }
+
+    render() {
+        var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
+        var min = Math.floor(elapsedTime / 60) + '';
+        var sec = elapsedTime - (min * 60) + '';
+        if (sec.length == 1) {
+            sec += '0';
+        }
+        if (min.length == 1) {
+            min += '0';
+        }
+        var str = min + ':' + sec;
+        return (<div className="timer">
+                {str}
+            </div>
+        )
+    }
+
+    cancelTimer() {
+        clearInterval(this.state.timer)
+    }
+
+    componentDidMount() {
+        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
+    }
+
+    _tick() {
+        this.setState({});
     }
 }
 
