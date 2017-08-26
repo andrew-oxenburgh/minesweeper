@@ -88,11 +88,15 @@ class Timer extends React.Component {
     }
 
     componentDidMount() {
-        setInterval(this.timer.bind(this), 1000);
+        this.timer = setInterval(this.tick.bind(this), 1000);
     }
 
-    timer(){
+    tick(){
         this.setState({});
+    }
+
+    cancelTimer(){
+        clearInterval(this.timer)
     }
 
     render() {
@@ -133,7 +137,8 @@ class Game extends React.Component {
     }
 
     blowup() {
-        this.state.squares.map((sq) => sq.blowup())
+        this.state.squares.map((sq) => sq.blowup());
+        this.timer.cancelTimer();
     }
 
     findEmpties(num) {
@@ -174,7 +179,7 @@ class Game extends React.Component {
         this.state = {squares: []};
         return (
             <div className="game">
-                <Timer/>
+                <Timer ref={(input)=>this.timer = input}/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
                         return this.renderSquare(i)
