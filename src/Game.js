@@ -174,11 +174,11 @@ class Game extends React.Component {
     }
 
     findEmpties(num) {
-        this._messageToNeighbours(num, this._handleNextDoors);
+        this._messageToNeighbours(num, this._handleNextDoors.bind(this));
     }
 
     _handleNextDoors(sq) {
-        sq.handleEmptyNextDoor.apply(sq);
+        this.state.squares[sq].handleEmptyNextDoor.apply(this.state.squares[sq]);
     }
 
     _messageToNeighbours(num, call) {
@@ -191,7 +191,7 @@ class Game extends React.Component {
                     if (j >= 0 && j < 16) {
                         var sq = i * 16 + j;
                         if (sq !== num) {
-                            call(this.state.squares[sq]);
+                            call(sq);
                         }
                     }
                 }
