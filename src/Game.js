@@ -25,6 +25,43 @@ class Square extends React.Component {
         };
     }
 
+    blowup() {
+        this.setState({blowingup: true}, this.render)
+    }
+
+    handleEmptyNextDoor() {
+        if (!this.state.selected && !this.state.posited) {
+            this._normalClick();
+        }
+    }
+
+    _handleClick(evt) {
+        if (this.state.blowingup === true) {
+            return;
+        }
+        if (evt.shiftKey) {
+            this.setState({posited: true})
+        } else {
+            this._normalClick()
+        }
+    }
+
+    _normalClick() {
+        this.setState({posited: false});
+        if (this.props.value === 'X') {
+            this.setState({blowingup: true});
+            this.props.blowup();
+            return
+        }
+        let call = (() => {
+            this.render();
+            if (this.props.value === '0') {
+                this.state.findEmpties()
+            }
+        }).bind(this);
+        this.setState({selected: true}, call);
+    }
+
     render() {
         var className = this.state.className;
 
@@ -41,47 +78,10 @@ class Square extends React.Component {
         }
 
         return (
-            <button className={className} onClick={(evt) => this.handleClick(evt)}>
+            <button className={className} onClick={(evt) => this._handleClick(evt)}>
                 {this.state.selected ? this.props.value : "?"}
             </button>
         );
-    }
-
-    blowup() {
-        this.setState({blowingup: true}, this.render)
-    }
-
-    handleEmptyNextDoor() {
-        if (!this.state.selected && !this.state.posited) {
-            this.normalClick();
-        }
-    }
-
-    handleClick(evt) {
-        if (this.state.blowingup === true) {
-            return;
-        }
-        if (evt.shiftKey) {
-            this.setState({posited: true})
-        } else {
-            this.normalClick()
-        }
-    }
-
-    normalClick() {
-        this.setState({posited: false});
-        if (this.props.value === 'X') {
-            this.setState({blowingup: true});
-            this.props.blowup();
-            return
-        }
-        let call = (() => {
-            this.render();
-            if(this.props.value === '0'){
-                this.state.findEmpties()
-            }
-        }).bind(this);
-        this.setState({selected: true}, call);
     }
 }
 
@@ -94,15 +94,15 @@ class Timer extends React.Component {
     }
 
     componentDidMount() {
-        this.timer = setInterval(this.tick.bind(this), 1000);
-    }
-
-    tick() {
-        this.setState({});
+        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
     }
 
     cancelTimer() {
         clearInterval(this.timer)
+    }
+
+    _tick() {
+        this.setState({});
     }
 
     render() {
@@ -147,7 +147,15 @@ class Game extends React.Component {
         this.timer.cancelTimer();
     }
 
+    _handleNextDoors(sq) {
+        sq.handleEmptyNextDoor.apply(sq);
+    }
+
     findEmpties(num) {
+        this._messageToNeighbours(num, this._handleNextDoors);
+    }
+
+    _messageToNeighbours(num, call) {
         var row = Math.floor(num / 16);
         var col = num % 16;
 
@@ -157,7 +165,7 @@ class Game extends React.Component {
                     if (j >= 0 && j < 16) {
                         var sq = i * 16 + j;
                         if (sq !== num) {
-                            this.state.squares[sq].handleEmptyNextDoor.apply(this.state.squares[sq]);
+                            call(this.state.squares[sq]);
                         }
                     }
                 }
@@ -165,8 +173,7 @@ class Game extends React.Component {
         }
     }
 
-
-    renderSquare(i) {
+    _renderSquare(i) {
         return (
             <Square
                 value={this.square_values[i]}
@@ -188,7 +195,7 @@ class Game extends React.Component {
                 <Timer ref={(input) => this.timer = input}/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
-                        return this.renderSquare(i)
+                        return this._renderSquare(i)
                     })}
                 </div>
             </div>
