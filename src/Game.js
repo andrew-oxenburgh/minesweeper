@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import _ from 'lodash';
 import './Game.css';
 
 class Square extends React.Component {
     constructor(props) {
         super(props);
+
+
+        var className = 'square';
+        if(this.props.value%8===0){
+            className += ' begin'
+        }
+        if(this.props.value%8===7){
+            className += ' end'
+        }
+
         this.state = {
-            selected: false
+            selected: false,
+            posited: false,
+            className: className
         };
     }
 
     render() {
-        var className = this.props.className;
+        var className = this.state.className;
         if (this.state.selected) {
             className += " type-" + this.props.value;
         }
@@ -35,49 +48,39 @@ class Game extends React.Component {
     constructor(props) {
         super(props);
         this.squares = [
-            '0', '0', '0', '0',
-            '0', '1', '1', '1',
-            '0', '1', 'X', '1',
-            '0', '1', '1', '1'
+            '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
+            '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
+            '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
         ];
     }
 
-    renderSquare(i, className) {
+    renderSquare(i) {
         return (
             <Square
                 value={this.squares[i]}
-                className={className}
+                key={i}
             />
         );
-    }
-
-    jumpTo(step) {
-        this.setState({
-            stepNumber: step,
-            xIsNext: (step % 2) === 0
-        });
     }
 
     render() {
         return (
             <div className="game">
                 <div className="game-board">
-                    {this.renderSquare(0, "square begin")}
-                    {this.renderSquare(1, "square")}
-                    {this.renderSquare(2, "square")}
-                    {this.renderSquare(3, "square end")}
-                    {this.renderSquare(4, "square begin")}
-                    {this.renderSquare(5, "square")}
-                    {this.renderSquare(6, "square")}
-                    {this.renderSquare(7, "square end")}
-                    {this.renderSquare(8, "square begin")}
-                    {this.renderSquare(9, "square")}
-                    {this.renderSquare(10, "square")}
-                    {this.renderSquare(11, "square end")}
-                    {this.renderSquare(12, "square begin")}
-                    {this.renderSquare(13, "square")}
-                    {this.renderSquare(14, "square")}
-                    {this.renderSquare(15, "square end")}
+                    {_.range(0, 16*16).map((element, i)=>{return this.renderSquare(i)})};
                 </div>
             </div>
         );

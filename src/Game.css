@@ -9,7 +9,7 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 34px;
   height: 60px;
@@ -18,19 +18,32 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px; }
-  .square.zero {
-    background-color: lightgray; }
-  .square.one {
+  .square.type-0 {
+    background-color: lightgray;
+    color: gray; }
+  .square.type-1 {
+    background-color: lightgray;
     color: blue; }
-  .square.two {
+  .square.type-2 {
+    background-color: lightgray;
     color: green; }
-  .square.three {
+  .square.type-3 {
+    background-color: lightgray;
     color: red; }
-  .square.four {
+  .square.type-4 {
+    background-color: lightgray;
     color: darkblue; }
-  .square.five {
+  .square.type-5 {
+    background-color: lightgray;
     color: darkgreen; }
-  .square.five {
+  .square.type-6 {
+    background-color: lightgray;
+    color: darkred; }
+  .square.type-7 {
+    background-color: lightgray;
+    color: darkred; }
+  .square.type-8 {
+    background-color: lightgray;
     color: darkred; }
 
 .square:focus {
@@ -48,4 +61,4 @@ ol, ul {
 
 .game-board {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }

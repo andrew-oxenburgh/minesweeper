@@ -11,7 +11,7 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 34px;
   height: 60px;
@@ -20,25 +20,40 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 60px;
-  &.zero{
+  &.type-0{
     background-color: lightgray;
+    color: gray;
   }
-  &.one{
+  &.type-1{
+    background-color: lightgray;
     color: blue;
   }
-  &.two{
+  &.type-2{
+    background-color: lightgray;
     color: green;
   }
-  &.three{
+  &.type-3{
+    background-color: lightgray;
     color: red;
   }
-  &.four{
+  &.type-4{
+    background-color: lightgray;
     color: darkblue;
   }
-  &.five{
+  &.type-5{
+    background-color: lightgray;
     color: darkgreen;
   }
-  &.five{
+  &.type-6{
+    background-color: lightgray;
+    color: darkred;
+  }
+  &.type-7{
+    background-color: lightgray;
+    color: darkred;
+  }
+  &.type-8{
+    background-color: lightgray;
     color: darkred;
   }
 }
@@ -62,5 +77,5 @@ ol, ul {
 
 .game-board{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
