@@ -130,7 +130,7 @@ class Timer extends React.Component {
 class Game extends React.Component {
     constructor(props) {
         super(props);
-        this.square_values = [
+        var square_values = [
             '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0',
             '0', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2', '1', '1', '2', '2',
             '0', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X', '1', '1', 'X', 'X',
@@ -150,12 +150,12 @@ class Game extends React.Component {
         ];
         this.state = {
             squares: [],
-            bombCount: 32
+            bombCount: 32,
+            square_values: square_values
         }
     }
 
     render() {
-        this.state = {squares: []};
         return (
             <div className="game">
                 <Timer ref={(input) => this.timer = input}/>
@@ -202,7 +202,7 @@ class Game extends React.Component {
     _renderSquare(i) {
         return (
             <Square
-                value={this.square_values[i]}
+                value={this.state.square_values[i]}
                 key={i}
                 nm={i}
                 ref={(input) => {
