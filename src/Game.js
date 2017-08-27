@@ -124,6 +124,7 @@ class Game extends React.Component {
         return (
             <div className="game">
                 <Timer ref={(input) => this.timer = input}/>
+                <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
                         return this._renderSquare(i)
@@ -177,6 +178,18 @@ class Game extends React.Component {
                 blowup={this.blowup.bind(this)}
             />
         );
+    }
+}
+
+class BombCounter extends React.Component {
+    constructor() {
+        super();
+    }
+
+    render() {
+        return (<div className="bomb-counter">
+            {this.props.game.state.bombCount}
+        </div>)
     }
 }
 
