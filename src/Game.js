@@ -257,6 +257,6 @@ class Timer extends React.Component {
     }
 }
 
-ReactDOM.render(<Game/>, document.getElementById("root"));
+ReactDOM.render(<Game />, document.getElementById("root"));
 
 export default Game;
