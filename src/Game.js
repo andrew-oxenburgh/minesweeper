@@ -18,19 +18,19 @@ class Square extends React.Component {
         var className = this.state.className;
 
         if (!this.state.posited && this.state.blowingup && this.props.value === 'X') {
-            className += " blowup";
+            className += ' blowup';
         }
 
         if (this.state.posited) {
-            className += " posited"
+            className += ' posited';
         }
 
         if (this.state.selected) {
-            className += " selected type-" + this.props.value;
+            className += ' selected type-' + this.props.value;
         } else {
-            className += " unselected";
+            className += ' unselected';
         }
-        var str = "";
+        var str = '';
 
         if (this.state.selected && this.props.value !== '0') {
             str = this.props.value;
@@ -44,7 +44,7 @@ class Square extends React.Component {
     }
 
     blowup() {
-        this.setState({blowingup: true})
+        this.setState({blowingup: true});
     }
 
     handleEmptyNextDoor() {
@@ -56,10 +56,10 @@ class Square extends React.Component {
     _calcClassName() {
         var className = 'square';
         if (this.props.nm % 16 === 0) {
-            className += ' begin'
+            className += ' begin';
         }
         if (this.props.nm % 16 === 15) {
-            className += ' end'
+            className += ' end';
         }
         return className;
     }
@@ -70,9 +70,9 @@ class Square extends React.Component {
             return;
         }
         if (evt.shiftKey) {
-            this._shiftClick()
+            this._shiftClick();
         } else {
-            this._normalClick()
+            this._normalClick();
         }
     }
 
@@ -81,12 +81,12 @@ class Square extends React.Component {
         if (this.props.value === 'X') {
             this.setState({blowingup: true});
             this.props.blowup();
-            return
+            return;
         }
         let call = (() => {
             this.render();
             if (this.props.value === '0') {
-                this.props.findEmpties(this.props.nm)
+                this.props.findEmpties(this.props.nm);
             }
         });
         this.setState({selected: true}, call);
@@ -94,7 +94,7 @@ class Square extends React.Component {
 
     _shiftClick() {
         var posited = !this.state.posited;
-        this.setState({posited: posited})
+        this.setState({posited: posited});
     }
 }
 
@@ -108,26 +108,23 @@ class Game extends React.Component {
             var bombHere = Math.floor(Math.random() * 16 * 16);
             if (square_values[bombHere] !== 'X') {
                 square_values[bombHere] = 'X';
-                this._messageToNeighbours(bombHere, function (sq) {
-                    if (square_values[sq] !== 'X') {
-                        square_values[sq]++;
-                    }
-                });
+                this._messageToNeighbours(bombHere, this.incrementCount.bind(this, square_values));
                 bombCount--;
             }
         }
 
         square_values = square_values.map((val) => {
-            return val + ''
+            return val + '';
         });
 
 
         this.state = {
             squares: [],
-            bombCount: 32,
+            bombCount: 20,
             square_values: square_values
-        }
+        };
     }
+
 
     render() {
         return (
@@ -135,15 +132,23 @@ class Game extends React.Component {
                 <div>Click to guess</div>
                 <div>Shift click to posit the existence of a bomb under the cursor</div>
                 <div>To start a new game, refresh the screen</div>
+                <div>The counter is bit buggy</div>
+                <div>It's a bit inconclusive whether you've won and/or finished</div>
                 <Timer ref={(input) => this.timer = input}/>
                 <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => {
-                        return this._renderSquare(i)
+                        return this._renderSquare(i);
                     })}
                 </div>
             </div>
         );
+    }
+
+    incrementCount(square_values, sq) {
+        if (square_values[sq] !== 'X') {
+            square_values[sq]++;
+        }
     }
 
     blowup() {
@@ -184,7 +189,7 @@ class Game extends React.Component {
                 key={i}
                 nm={i}
                 ref={(input) => {
-                    input ? this.state.squares.push(input) : ''
+                    if (input) this.state.squares.push(input);
                 }}
                 findEmpties={this.findEmpties.bind(this)}
                 blowup={this.blowup.bind(this)}
@@ -199,20 +204,20 @@ class BombCounter extends React.Component {
         super();
         this.state = {
             posited: 0
-        }
+        };
     }
 
     render() {
         return (<div className="bomb-counter">
             {this.props.game.state.bombCount - this.state.posited}/{this.props.game.state.bombCount}
-        </div>)
+        </div>);
     }
 
     update() {
         var posited = this.props.game.state.squares.reduce(
             (cnt, sq) => {
                 if (sq.state.posited) {
-                    cnt++
+                    cnt++;
                 }
                 return cnt;
             }, 1
@@ -234,21 +239,21 @@ class Timer extends React.Component {
         var elapsedTime = Math.floor((new Date().getTime() - this.state.startTime) / 1000);
         var min = Math.floor(elapsedTime / 60) + '';
         var sec = elapsedTime - (min * 60) + '';
-        if (sec.length == 1) {
+        if (sec.length === 1) {
             sec = '0' + sec;
         }
-        if (min.length == 1) {
+        if (min.length === 1) {
             min = '0' + min;
         }
         var str = min + ':' + sec;
         return (<div className="timer">
-                {str}
-            </div>
-        )
+            {str}
+        </div>
+        );
     }
 
     cancelTimer() {
-        clearInterval(this.state.timer)
+        clearInterval(this.state.timer);
     }
 
     componentDidMount() {
@@ -260,6 +265,6 @@ class Timer extends React.Component {
     }
 }
 
-ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(<Game/>, document.getElementById('root'));
 
 export default Game;

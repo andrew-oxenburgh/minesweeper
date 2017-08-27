@@ -15,6 +15,7 @@ Points:
  1. Uses underscores to indicate privacy, just by convention
  1. Didn't have a file per class, as is usually the case
  1. Uses brute force for sending messages to surrounding squares
+ 1. Uses eslint
  
 Illustrates:
  1. Use of apply and bind, where appropriate
