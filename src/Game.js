@@ -132,6 +132,9 @@ class Game extends React.Component {
     render() {
         return (
             <div className="game">
+                <div>Click to guess</div>
+                <div>Shift click to posit the existence of a bomb under the cursor</div>
+                <div>To start a new game, refresh the screen</div>
                 <Timer ref={(input) => this.timer = input}/>
                 <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
