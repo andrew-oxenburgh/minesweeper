@@ -9,10 +9,10 @@ It can be a bit slow when clearing areas, depending on how big the area is, and 
 
 To run:
 
-'''
+```bash
 npm install
 npm start
-'''
+```
 
 Points:
  1. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
