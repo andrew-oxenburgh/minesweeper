@@ -27,11 +27,18 @@ class Square extends React.Component {
 
         if (this.state.selected) {
             className += " selected type-" + this.props.value;
+        } else {
+            className += " unselected";
+        }
+        var str = "";
+
+        if (this.state.selected && this.props.value !== '0') {
+            str = this.props.value;
         }
 
         return (
             <button className={className} onClick={(evt) => this._handleClick(evt)}>
-                {this.state.selected ? this.props.value : "?"}
+                {str}
             </button>
         );
     }
@@ -58,6 +65,7 @@ class Square extends React.Component {
     }
 
     _handleClick(evt) {
+        this.props.bombCounter.update();
         if (this.state.blowingup === true) {
             return;
         }
@@ -85,7 +93,8 @@ class Square extends React.Component {
     }
 
     _shiftClick() {
-        this.setState({posited: true})
+        var posited = !this.state.posited;
+        this.setState({posited: posited})
     }
 }
 
@@ -93,7 +102,7 @@ class Game extends React.Component {
     constructor(props) {
         super(props);
 
-        var bombCount = 15;
+        var bombCount = 20;
         var square_values = new Array(16 * 16).fill(0);
         while (bombCount > 0) {
             var bombHere = Math.floor(Math.random() * 16 * 16);
@@ -176,6 +185,7 @@ class Game extends React.Component {
                 }}
                 findEmpties={this.findEmpties.bind(this)}
                 blowup={this.blowup.bind(this)}
+                bombCounter={this.bombCounter}
             />
         );
     }
@@ -184,12 +194,28 @@ class Game extends React.Component {
 class BombCounter extends React.Component {
     constructor() {
         super();
+        this.state = {
+            posited: 0
+        }
     }
 
     render() {
         return (<div className="bomb-counter">
-            {this.props.game.state.bombCount}
+            {this.props.game.state.bombCount - this.state.posited}/{this.props.game.state.bombCount}
         </div>)
+    }
+
+    update() {
+        var posited = this.props.game.state.squares.reduce(
+            (cnt, sq) => {
+                if (sq.state.posited) {
+                    cnt++
+                }
+                return cnt;
+            }, 1
+        );
+
+        this.setState({posited: Math.floor(posited / 2)});
     }
 }
 
@@ -231,6 +257,6 @@ class Timer extends React.Component {
     }
 }
 
-ReactDOM.render(<Game/>, document.getElementById("root"))
+ReactDOM.render(<Game/>, document.getElementById("root"));
 
 export default Game;

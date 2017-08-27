@@ -1,5 +1,5 @@
 body {
-  font: 30px "Century Gothic", Futura, sans-serif;
+  font: 30px "Roboto", Futura, sans-serif;
   margin: 20px;
 }
 
@@ -15,6 +15,18 @@ body {
   padding: 0;
   text-align: center;
   width: 60px;
+  &.unselected{
+    padding:2px;
+    background-color: lightgrey;
+    border-left: darkgray 1px solid;
+    border-top: darkgray 1px solid;
+    border-right: darkgray 3px solid;
+    border-bottom: darkgray 3px solid;
+  }
+  &.selected{
+    background-color: lightgrey;
+    border: white 1px solid;
+  }
   &.blowup{
     background-color: red;
   }
@@ -78,7 +90,7 @@ body {
 
 .game-board{
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
 }
 
 .timer{
