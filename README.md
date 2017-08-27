@@ -5,7 +5,14 @@ The styling isn't complete, so you can't really tell how close you got to comple
 
 As it stands, you can only lose, it never tells you when you've won.
 
-It can be a bit when clearing areas, depending on how big the area is, and its shape. 
+It can be a bit slow when clearing areas, depending on how big the area is, and its shape. 
+
+To run:
+
+'''
+npm install
+npm start
+'''
 
 Points:
  1. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
