@@ -193,10 +193,10 @@ class Timer extends React.Component {
         var min = Math.floor(elapsedTime / 60) + '';
         var sec = elapsedTime - (min * 60) + '';
         if (sec.length == 1) {
-            sec += '0';
+            sec = '0' + sec;
         }
         if (min.length == 1) {
-            min += '0';
+            min = '0' + min;
         }
         var str = min + ':' + sec;
         return (<div className="timer">
