@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andrew-oxenburgh.github.io/minesweeper",
   "dependencies": {
     "lodash": "^4.17.4",
     "node-sass-chokidar": "0.0.3",
@@ -16,10 +17,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "eslint": "eslint src"
+    "eslint": "eslint src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint": "^4.6",
+    "eslint-plugin-react": "^7.3.0",
+    "gh-pages": "^1.0.0"
   }
 }

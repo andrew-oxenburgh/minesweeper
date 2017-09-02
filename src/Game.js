@@ -16,13 +16,20 @@ class Square extends React.Component {
 
     render() {
         var className = this.state.className;
+        var str = '';
 
         if (!this.state.posited && this.state.blowingup && this.props.value === 'X') {
             className += ' blowup';
+            return (
+                <button className={className} onClick={(evt) => this._handleClick(evt)}>
+                    <i className="fa fa-bomb" aria-hidden="true"></i>
+                </button>
+            );
         }
 
         if (this.state.posited) {
             className += ' posited';
+            str = '?';
         }
 
         if (this.state.selected) {
@@ -30,7 +37,6 @@ class Square extends React.Component {
         } else {
             className += ' unselected';
         }
-        var str = '';
 
         if (this.state.selected && this.props.value !== '0') {
             str = this.props.value;
@@ -247,8 +253,8 @@ class Timer extends React.Component {
         }
         var str = min + ':' + sec;
         return (<div className="timer">
-            {str}
-        </div>
+                {str}
+            </div>
         );
     }
 
