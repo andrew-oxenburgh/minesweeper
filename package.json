@@ -24,6 +24,7 @@
   "devDependencies": {
     "eslint": "^4.6",
     "eslint-plugin-react": "^7.3.0",
-    "gh-pages": "^1.0.0"
+    "gh-pages": "^1.0.0",
+    "prop-types": "^15.5.10"
   }
 }

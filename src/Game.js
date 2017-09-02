@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import './Game.css';
@@ -29,7 +30,11 @@ class Square extends React.Component {
 
         if (this.state.posited) {
             className += ' posited';
-            str = '?';
+            return (
+                <button className={className} onClick={(evt) => this._handleClick(evt)}>
+                    <i className="fa fa-bomb" aria-hidden="true"></i>
+                </button>
+            );
         }
 
         if (this.state.selected) {
@@ -104,6 +109,14 @@ class Square extends React.Component {
     }
 }
 
+Square.propTypes = {
+    value: PropTypes.any,
+    nm: PropTypes.any,
+    blowup: PropTypes.any,
+    findEmpties: PropTypes.any,
+    bombCounter: PropTypes.any
+};
+
 class Game extends React.Component {
     constructor(props) {
         super(props);
@@ -139,7 +152,7 @@ class Game extends React.Component {
                 <div>Shift click to posit the existence of a bomb under the cursor</div>
                 <div>To start a new game, refresh the screen</div>
                 <div>The counter is bit buggy</div>
-                <div>It's a bit inconclusive whether you've won and/or finished</div>
+                <div>It is a bit inconclusive whether you have won and/or finished</div>
                 <Timer ref={(input) => this.timer = input}/>
                 <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
@@ -233,6 +246,10 @@ class BombCounter extends React.Component {
     }
 }
 
+BombCounter.propTypes = {
+    game: PropTypes.any
+};
+
 class Timer extends React.Component {
     constructor(props) {
         super(props);
@@ -253,8 +270,8 @@ class Timer extends React.Component {
         }
         var str = min + ':' + sec;
         return (<div className="timer">
-                {str}
-            </div>
+            {str}
+        </div>
         );
     }
 

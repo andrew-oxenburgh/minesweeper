@@ -14,6 +14,11 @@ npm install
 npm start
 ```
 
+To deploy on github pages:
+```bash
+npm run deploy
+```
+
 Points:
  1. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
  1. Used the canonical React tutorial as a starting point. https://facebook.github.io/react/tutorial/tutorial.html
