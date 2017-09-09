@@ -75,7 +75,7 @@ class Square extends React.Component {
     }
 
     _handleClick(evt) {
-        if (this.state.blowingup === true) {
+        if (this.state.blowingup === true || this.props.game.completed) {
             return;
         }
         if (evt.shiftKey) {
@@ -137,7 +137,8 @@ class Game extends React.Component {
         this.state = {
             squares: [],
             bombCount: 20,
-            square_values: square_values
+            square_values: square_values,
+            completed: false
         };
     }
 
@@ -147,16 +148,18 @@ class Game extends React.Component {
 
 
     render() {
+        var newgameClass = 'new-game ';
+        if(this.state.completed){
+            newgameClass += 'hi';
+        }
         return (
             <div className="game">
                 <h1>Minesweeper</h1>
                 <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank">source</a>
+                <a href="/">home</a>
                 <p>Click to guess</p>
                 <p>Shift click to posit the existence of a bomb under the cursor</p>
-                <p>To start a new game, refresh the screen</p>
-                <p>The counter is bit buggy</p>
-                <p>It is a bit inconclusive whether you have won and/or finished</p>
-                <button onClick={this.refresh}>restart</button>
+                <button className={newgameClass} onClick={this.refresh}>new game</button>
                 <Timer game={this} ref={(input) => this.timer = input}/>
                 <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
@@ -186,6 +189,7 @@ class Game extends React.Component {
 
     finish(){
         this.timer.cancelTimer();
+        this.setState({complete: true}, this.render);
     }
 
     findEmpties(num) {
