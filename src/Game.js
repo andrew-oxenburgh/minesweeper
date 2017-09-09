@@ -189,7 +189,7 @@ class Game extends React.Component {
 
     finish(){
         this.timer.cancelTimer();
-        this.setState({complete: true}, this.render);
+        this.setState({completed: true}, this.render);
     }
 
     findEmpties(num) {
