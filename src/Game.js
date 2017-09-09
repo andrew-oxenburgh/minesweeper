@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import './Game.css';
 
@@ -150,11 +149,14 @@ class Game extends React.Component {
     render() {
         return (
             <div className="game">
-                <div>Click to guess</div>
-                <div>Shift click to posit the existence of a bomb under the cursor</div>
-                <div>To start a new game, refresh the screen</div>
-                <div>The counter is bit buggy</div>
-                <div>It is a bit inconclusive whether you have won and/or finished</div>
+                <h1>Minesweeper</h1>
+                <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank">source</a>
+                <p>Click to guess</p>
+                <p>Shift click to posit the existence of a bomb under the cursor</p>
+                <p>To start a new game, refresh the screen</p>
+                <p>The counter is bit buggy</p>
+                <p>It is a bit inconclusive whether you have won and/or finished</p>
+                <button onClick={this.refresh}>restart</button>
                 <Timer game={this} ref={(input) => this.timer = input}/>
                 <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
                 <div className="game-board">
@@ -164,6 +166,10 @@ class Game extends React.Component {
                 </div>
             </div>
         );
+    }
+
+    refresh(){
+        window.location.reload();
     }
 
     incrementCount(square_values, sq) {
@@ -253,16 +259,16 @@ class BombCounter extends React.Component {
             }, 0
         );
 
-        if (posited == this.props.game.state.bombCount) {
+        if (posited === this.props.game.state.bombCount) {
             var correct = this.props.game.state.squares.reduce(
                 (cnt, sq) => {
-                    if (sq.state.posited && sq.props.value == 'X') {
+                    if (sq.state.posited && sq.props.value === 'X') {
                         cnt++;
                     }
                     return cnt;
                 }, 0
             );
-            if (correct == this.props.game.state.bombCount) {
+            if (correct === this.props.game.state.bombCount) {
                 this.setState({face: 'smile-o'});
                 this.props.game.finish();
             } else {
