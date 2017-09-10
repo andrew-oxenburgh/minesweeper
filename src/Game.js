@@ -54,7 +54,7 @@ class Square extends React.Component {
     }
 
     blowup() {
-        this.setState({blowingup: true});
+        this.setState({ blowingup: true });
     }
 
     handleEmptyNextDoor() {
@@ -68,9 +68,11 @@ class Square extends React.Component {
         if (this.props.nm % 16 === 0) {
             className += ' begin';
         }
+
         if (this.props.nm % 16 === 15) {
             className += ' end';
         }
+
         return className;
     }
 
@@ -78,33 +80,36 @@ class Square extends React.Component {
         if (this.state.blowingup === true || this.props.game.completed) {
             return;
         }
+
         if (evt.shiftKey) {
             this._shiftClick();
         } else {
             this._normalClick();
         }
+
         this.props.game.update();
     }
 
     _normalClick() {
-        this.setState({posited: false});
+        this.setState({ posited: false });
         if (this.props.value === 'X') {
-            this.setState({blowingup: true});
+            this.setState({ blowingup: true });
             this.props.game.blowup();
             return;
         }
+
         let call = (() => {
             this.render();
             if (this.props.value === '0') {
                 this.props.game.findEmpties(this.props.nm);
             }
         });
-        this.setState({selected: true}, call);
+        this.setState({ selected: true }, call);
     }
 
     _shiftClick() {
         var posited = !this.state.posited;
-        this.setState({posited: posited});
+        this.setState({ posited: posited });
     }
 }
 
@@ -112,7 +117,7 @@ Square.propTypes = {
     value: PropTypes.any,
     nm: PropTypes.any,
     blowup: PropTypes.any,
-    game: PropTypes.any
+    game: PropTypes.any,
 };
 
 class Game extends React.Component {
@@ -130,15 +135,13 @@ class Game extends React.Component {
             }
         }
 
-        square_values = square_values.map((val) => {
-            return val + '';
-        });
+        square_values = square_values.map(val => val + '');
 
         this.state = {
             squares: [],
             bombCount: 20,
             square_values: square_values,
-            completed: false
+            completed: false,
         };
     }
 
@@ -146,32 +149,31 @@ class Game extends React.Component {
         this.bombCounter.update();
     }
 
-
     render() {
         var newgameClass = 'new-game ';
-        if(this.state.completed){
+        if (this.state.completed) {
             newgameClass += 'hi';
         }
+
         return (
             <div className="game">
                 <h1>Minesweeper</h1>
-                <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank">source</a>
+                <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank"
+                    rel="noopener noreferrer">source</a>
                 <a href="/">home</a>
                 <p>Click to guess</p>
                 <p>Shift click to posit the existence of a bomb under the cursor</p>
                 <button className={newgameClass} onClick={this.refresh}>new game</button>
                 <Timer game={this} ref={(input) => this.timer = input}/>
-                <BombCounter game={this} ref={(input) => this.bombCounter = input}/>
+                <BombCounter game={this} ref={input => this.bombCounter = input}/>
                 <div className="game-board">
-                    {_.range(0, 16 * 16).map((element, i) => {
-                        return this._renderSquare(i);
-                    })}
+                    {_.range(0, 16 * 16).map((element, i) => this._renderSquare(i))}
                 </div>
             </div>
         );
     }
 
-    refresh(){
+    refresh() {
         window.location.reload();
     }
 
@@ -187,9 +189,9 @@ class Game extends React.Component {
         this.finish();
     }
 
-    finish(){
+    finish() {
         this.timer.cancelTimer();
-        this.setState({completed: true}, this.render);
+        this.setState({ completed: true }, this.render);
     }
 
     findEmpties(num) {
@@ -227,6 +229,7 @@ class Game extends React.Component {
                 ref={(input) => {
                     if (input) this.state.squares.push(input);
                 }}
+
                 game={this}
             />
         );
@@ -238,7 +241,7 @@ class BombCounter extends React.Component {
         super();
         this.state = {
             posited: 0,
-            face: 'meh-o'
+            face: 'meh-o',
         };
     }
 
@@ -249,8 +252,8 @@ class BombCounter extends React.Component {
         </div>);
     }
 
-    blowup(){
-        this.setState({face: 'frown-o'});
+    blowup() {
+        this.setState({ face: 'frown-o' });
     }
 
     update() {
@@ -259,6 +262,7 @@ class BombCounter extends React.Component {
                 if (sq.state.posited) {
                     cnt++;
                 }
+
                 return cnt;
             }, 0
         );
@@ -269,30 +273,31 @@ class BombCounter extends React.Component {
                     if (sq.state.posited && sq.props.value === 'X') {
                         cnt++;
                     }
+
                     return cnt;
                 }, 0
             );
             if (correct === this.props.game.state.bombCount) {
-                this.setState({face: 'smile-o'});
+                this.setState({ face: 'smile-o' });
                 this.props.game.finish();
             } else {
-                this.setState({face: 'frown-o'});
+                this.setState({ face: 'frown-o' });
             }
         }
 
-        this.setState({posited: posited});
+        this.setState({ posited: posited });
     }
 }
 
 BombCounter.propTypes = {
-    game: PropTypes.any
+    game: PropTypes.any,
 };
 
 class Timer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            startTime: new Date().getTime()
+            startTime: new Date().getTime(),
         };
     }
 
@@ -303,13 +308,15 @@ class Timer extends React.Component {
         if (sec.length === 1) {
             sec = '0' + sec;
         }
+
         if (min.length === 1) {
             min = '0' + min;
         }
+
         var str = min + ':' + sec;
         return (<div className="timer">
-                {str}
-            </div>
+            {str}
+        </div>
         );
     }
 
@@ -318,7 +325,7 @@ class Timer extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
+        this.setState({ timer: setInterval(this._tick.bind(this), 1000) });
     }
 
     _tick() {
@@ -328,7 +335,7 @@ class Timer extends React.Component {
 }
 
 Timer.propTypes = {
-    game: PropTypes.any
+    game: PropTypes.any,
 };
 
 export default Game;
