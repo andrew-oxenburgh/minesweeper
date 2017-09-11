@@ -1,10 +1,11 @@
 body {
   font: 30px "Roboto", Futura, sans-serif;
-  margin: 20px;
+  margin: 5px;
 }
 
 $square-side: 40px;
 $font-size: 30px;
+$game-width: 40*16px;
 
 .square {
   background: #fff;
@@ -12,7 +13,6 @@ $font-size: 30px;
   float: left;
   font-size: $font-size;
   font-weight: bold;
-  //line-height: 34px;
   height: $square-side;
   margin: 0;
   padding: 0;
@@ -20,11 +20,11 @@ $font-size: 30px;
   width: $square-side;
   &.unselected{
     padding:2px;
-    background-color: grey;
+    background-color: white;
     border-left: darkgray 1px solid;
     border-top: darkgray 1px solid;
-    border-right: darkgray 3px solid;
-    border-bottom: darkgray 3px solid;
+    border-right: darkgray 1px solid;
+    border-bottom: darkgray 1px solid;
   }
   &.selected{
     background-color: lightgrey;
@@ -85,6 +85,8 @@ $font-size: 30px;
 .game {
   display: flex;
   flex-direction: column;
+  margin:0;
+  padding:0;
 }
 
 .game-info {
@@ -93,6 +95,8 @@ $font-size: 30px;
 
 .game-board{
   display: grid;
+  border: darkgrey 1px solid;
+  width: $game-width;
   grid-template-columns: $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side $square-side ;
 }
 
@@ -113,17 +117,35 @@ $font-size: 30px;
 }
 
 p{
-  font-size: small;
   margin:0;
+  border: none;
+  padding: 0;
+  font-size: small;
 }
 
-h1{
-  margin: 0;
+.nav{
+  display: table;
+  width:100%;
+  margin:0;
+  border: none;
+  padding: 0;
+  background-color: lightgrey;
+  * {
+    display: table-cell;
+  }
 }
 
 .new-game{
   font-size: medium;
   &.hi{
     background: green;
+  }
+}
+
+.toolbar{
+  display: table;
+  width: $game-width;
+  *{
+    display: table-cell;
   }
 }

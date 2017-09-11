@@ -162,15 +162,23 @@ class Game extends React.Component {
 
         return (
             <div className="game">
-                <h1>Minesweeper</h1>
-                <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank"
-                   rel="noopener noreferrer">source</a>
-                <a href="/">home</a>
-                <p>Click to guess</p>
-                <p>Shift click to posit the existence of a bomb under the cursor</p>
-                <button className={newgameClass} onClick={this.refresh}>new game</button>
-                <Timer game={this} ref={(input) => this.timer = input}/>
-                <BombCounter game={this} ref={input => this.bombCounter = input}/>
+                <div className="nav">
+                    <div>Minesweeper</div>
+                    <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank"
+                       rel="noopener noreferrer">
+                        <i className="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa fa-home" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p>Tap to guess</p>
+                <p>Press, or shift tap, to posit the existence of a bomb under the cursor or your finger</p>
+                <div className="toolbar">
+                    <Timer game={this} ref={(input) => this.timer = input}/>
+                    <button className={newgameClass} onClick={this.refresh}>new game</button>
+                    <BombCounter game={this} ref={input => this.bombCounter = input}/>
+                </div>
                 <div className="game-board">
                     {_.range(0, 16 * 16).map((element, i) => this._renderSquare(i))}
                 </div>
@@ -253,7 +261,9 @@ class BombCounter extends React.Component {
     render() {
         return (<div className="bomb-counter">
             <i className={'fa fa-' + this.state.face} aria-hidden="true"></i>
-            {this.props.game.state.bombCount - this.state.posited}/{this.props.game.state.bombCount}
+            <div>
+                {this.props.game.state.bombCount - this.state.posited}/{this.props.game.state.bombCount}
+            </div>
         </div>);
     }
 
