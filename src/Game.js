@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import _ from 'lodash';
 import './Game.css';
 
+import Tappable from 'react-tappable/lib/Tappable';
+
 class Square extends React.Component {
     constructor(props) {
         super(props);
@@ -21,18 +23,20 @@ class Square extends React.Component {
         if (!this.state.posited && this.state.blowingup && this.props.value === 'X') {
             className += ' blowup';
             return (
-                <button className={className} onClick={(evt) => this._handleClick(evt)}>
+                <Tappable component="button" stopPropagation preventDefault onPress={() => this._shiftClick()}
+                          className={className} onTap={(evt) => this._handleClick(evt)}>
                     <i className="fa fa-bomb" aria-hidden="true"></i>
-                </button>
+                </Tappable>
             );
         }
 
         if (this.state.posited) {
             className += ' posited';
             return (
-                <button className={className} onClick={(evt) => this._handleClick(evt)}>
+                <Tappable component="button" stopPropagation preventDefault onPress={() => this._shiftClick()}
+                          className={className} onTap={(evt) => this._handleClick(evt)}>
                     <i className="fa fa-bomb" aria-hidden="true"></i>
-                </button>
+                </Tappable>
             );
         }
 
@@ -47,14 +51,15 @@ class Square extends React.Component {
         }
 
         return (
-            <button className={className} onClick={(evt) => this._handleClick(evt)}>
+            <Tappable component="button" stopPropagation preventDefault onPress={() => this._shiftClick()}
+                      className={className} onTap={(evt) => this._handleClick(evt)}>
                 {str}
-            </button>
+            </Tappable>
         );
     }
 
     blowup() {
-        this.setState({ blowingup: true });
+        this.setState({blowingup: true});
     }
 
     handleEmptyNextDoor() {
@@ -91,9 +96,9 @@ class Square extends React.Component {
     }
 
     _normalClick() {
-        this.setState({ posited: false });
+        this.setState({posited: false});
         if (this.props.value === 'X') {
-            this.setState({ blowingup: true });
+            this.setState({blowingup: true});
             this.props.game.blowup();
             return;
         }
@@ -104,12 +109,12 @@ class Square extends React.Component {
                 this.props.game.findEmpties(this.props.nm);
             }
         });
-        this.setState({ selected: true }, call);
+        this.setState({selected: true}, call);
     }
 
     _shiftClick() {
         var posited = !this.state.posited;
-        this.setState({ posited: posited });
+        this.setState({posited: posited});
     }
 }
 
@@ -159,7 +164,7 @@ class Game extends React.Component {
             <div className="game">
                 <h1>Minesweeper</h1>
                 <a href="https://github.com/andrew-oxenburgh/minesweeper" target="_blank"
-                    rel="noopener noreferrer">source</a>
+                   rel="noopener noreferrer">source</a>
                 <a href="/">home</a>
                 <p>Click to guess</p>
                 <p>Shift click to posit the existence of a bomb under the cursor</p>
@@ -191,7 +196,7 @@ class Game extends React.Component {
 
     finish() {
         this.timer.cancelTimer();
-        this.setState({ completed: true }, this.render);
+        this.setState({completed: true}, this.render);
     }
 
     findEmpties(num) {
@@ -253,7 +258,7 @@ class BombCounter extends React.Component {
     }
 
     blowup() {
-        this.setState({ face: 'frown-o' });
+        this.setState({face: 'frown-o'});
     }
 
     update() {
@@ -278,14 +283,14 @@ class BombCounter extends React.Component {
                 }, 0
             );
             if (correct === this.props.game.state.bombCount) {
-                this.setState({ face: 'smile-o' });
+                this.setState({face: 'smile-o'});
                 this.props.game.finish();
             } else {
-                this.setState({ face: 'frown-o' });
+                this.setState({face: 'frown-o'});
             }
         }
 
-        this.setState({ posited: posited });
+        this.setState({posited: posited});
     }
 }
 
@@ -315,8 +320,8 @@ class Timer extends React.Component {
 
         var str = min + ':' + sec;
         return (<div className="timer">
-            {str}
-        </div>
+                {str}
+            </div>
         );
     }
 
@@ -325,7 +330,7 @@ class Timer extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({ timer: setInterval(this._tick.bind(this), 1000) });
+        this.setState({timer: setInterval(this._tick.bind(this), 1000)});
     }
 
     _tick() {
