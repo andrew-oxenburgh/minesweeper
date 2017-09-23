@@ -1,0 +1,6983 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check board looks good 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="nav"
+  >
+    <div>
+      Minesweeper
+    </div>
+    <a
+      href="https://github.com/andrew-oxenburgh/minesweeper"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-github"
+      />
+    </a>
+    <a
+      href="/"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-home"
+      />
+    </a>
+  </div>
+  <p>
+    Tap to guess
+  </p>
+  <p>
+    Press, or shift tap, to posit the existence of a bomb under the cursor or your finger
+  </p>
+  <div
+    className="toolbar"
+  >
+    <div
+      className="timer"
+    >
+      00:00
+    </div>
+    <button
+      className="new-game "
+      onClick={[Function]}
+    >
+      new game
+    </button>
+    <div
+      className="bomb-counter"
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-meh-o"
+      />
+      <div>
+        20
+        /
+        20
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-board"
+  >
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square begin unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+    <button
+      className="Tappable-inactive square end unselected"
+      disabled={undefined}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "KhtmlUserSelect": "none",
+          "MozUserSelect": "none",
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "WebkitTouchCallout": "none",
+          "WebkitUserSelect": "none",
+          "cursor": "pointer",
+          "msUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+    >
+      
+    </button>
+  </div>
+</div>
+`;
