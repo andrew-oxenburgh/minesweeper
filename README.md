@@ -11,6 +11,7 @@ To run:
 
 ```bash
 npm install
+npm run build-css
 npm start
 ```
 
